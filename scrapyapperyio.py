@@ -18,7 +18,7 @@ import json
 
 from twisted.internet import defer
 from scrapy.http import Request
-from urllib import urlencode
+from urllib.parse import urlencode
 
 
 class ApperyIoPipeline(object):
